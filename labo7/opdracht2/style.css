@@ -1,0 +1,53 @@
+
+.vriendentabel {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    border: 1px solid #36752D;
+}
+
+.vriendentabel th,
+.vriendentabel td {
+    padding: 8px 10px;
+}
+
+.vriendentabel thead th {
+    background: linear-gradient(to bottom, #36752D, #275420);
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 1px solid #36752D;
+}
+
+.vriendentabel thead th:first-child {
+    border-left: none;
+}
+
+.vriendentabel tbody td {
+    color: #275420;
+    border-left: 1px solid #C6FFC2;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.vriendentabel tbody tr:nth-child(even) {
+    background-color: #DFFFDE;
+}
+
+.vriendentabel tbody td:first-child {
+    border-left: none;
+}
+
+.vriendentabel tbody tr:last-child td {
+    border-bottom: none;
+}
+.onbekend{
+    background-color: red;
+}
+.prognose-table{
+    border-collapse: collapse;
+}
+.prognose-table th,
+.prognose-table td {
+    border: 1px solid black;
+}

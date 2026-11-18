@@ -1,0 +1,58 @@
+body{
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+nav{
+    background-color: #444;
+    padding: 5px;
+}
+nav a{
+    color: lightgreen;
+    text-decoration: none;
+    font-weight: bolder;
+}
+section{
+    width: 100%;
+
+}
+header{
+    background-image: url("images/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 125px;
+}
+article header{
+        background-image: none;
+    height: auto;
+    }
+
+h1{
+    color: white;
+    font-size: 30px;
+    padding: 5px;
+}
+article{
+    background-color:lightgrey;
+    padding: 5px;
+    margin-top:5px;
+    font-size:1em;
+}
+
+h2{
+    color: black;
+    font-size: 20px;
+
+}
+p{
+    font-size: 10px;
+}
+article footer a{
+    color: blue;
+    font-size: 10px;
+}
+section > footer {
+    font-size: 10px;
+}

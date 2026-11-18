@@ -1,0 +1,108 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: snow;
+    color:dimgray;
+    margin:0;
+}
+header{
+    background-color: #315c48;
+    color:white;
+    text-align: center;
+    padding: 30px;
+}
+main {
+    width:80%;
+    margin:20px auto;
+    text-align: center;
+
+}
+section{
+    background-color:antiquewhite;
+    padding: 25px;
+    margin-bottom: 25px;
+    border:1px solid#ddd;
+    border-radius: 10px;
+
+}
+h1{
+    margin:0;
+    font-size: 30px;
+    text-align: center;
+
+}
+h2{
+    color: #315c48;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+h3{
+    color:#47775c;
+}
+.profile{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+article{
+    background-color:wheat;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+}
+img{
+    width: 180px;
+    border-radius: 10px;
+}
+a{
+    color: green;
+}
+a:hover{
+    color: orange;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+footer{
+    background-color:seagreen;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.prognose{
+    background-color:wheat;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th{
+    background-color: seagreen;
+    color: white;
+    padding: 10px;
+}
+td{
+    padding: 10px;
+    border: 1px solid white;
+    color:seagreen;
+    font-weight: bold;
+}
+td:hover{
+    background-color:yellowgreen;
+    color:seagreen;
+}
+tr{
+    border-bottom: 2px solid white;
+}
+.prognose-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.prognose-table th,
+.prognose-table td{
+    border: 1px solid white;
+}
