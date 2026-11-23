@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: silver;
+}
+
+header {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+nav {
+    width: 20%;
+    height: 150px;
+    background-color: white;
+    float: left;
+}
+
+
+section#midden {
+    width: 80%;
+    height: 200px;
+    background-color:red;
+    float: left;
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+footer {
+    clear: both;
+    text-align: center;
+    background-color:green;
+    height: 120px;
+}
+.breedte{
+    width: 100%; /*geen invloed*/
+    background-color: green;/* verticale marges
+    (margin-top en margin-bottem)*/
+    margin:20px;
+    padding-top:20px;
+
+}
+nav a li{
+    text-decoration: none;
+}
+nav li{
+    list-style: none;
+}
+
